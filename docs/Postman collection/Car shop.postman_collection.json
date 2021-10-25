@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "46c86d07-9eab-4429-b732-48eee19537ac",
+		"name": "Car shop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44354/api/cars",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Discount",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 1,\r\n        \"make\": \"Alfa Romeo\",\r\n        \"model\": \"Giulia\",\r\n        \"year\": 2018,\r\n        \"countryManufactured\": \"Italy\",\r\n        \"colour\": \"White\",\r\n        \"price\": 50000\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"make\": \"Audi\",\r\n        \"model\": \"A3\",\r\n        \"year\": 1995,\r\n        \"countryManufactured\": \"Germany\",\r\n        \"colour\": \"Black\",\r\n        \"price\": 50000\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44354/api/cars/discount",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"cars",
+						"discount"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \r\n    \"make\": \"Alfa Romeo\",\r\n    \"model\": \"Giulia\",\r\n    \"year\": 2018,\r\n    \"countryManufactured\": \"Italy\",\r\n    \"colour\": \"White\",\r\n    \"price\": 50000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44354/api/cars",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1001,\r\n    \"make\": \"354354352\",\r\n    \"model\": \"errer\",\r\n    \"year\": 2018,\r\n    \"countryManufactured\": \"India\",\r\n    \"colour\": \"Black\",\r\n    \"price\": 5000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44354/api/cars",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44354",
+					"path": [
+						"api",
+						"cars"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

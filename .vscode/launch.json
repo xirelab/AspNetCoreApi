@@ -9,7 +9,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net5.0/aspnetapi.dll",
+            "program": "${workspaceFolder}/bin/Debug/net5.0/api.cars.dealer.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,

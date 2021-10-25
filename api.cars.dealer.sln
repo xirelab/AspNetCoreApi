@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F6519315-00E7-4440-9BAB-21C997629265}"
+	ProjectSection(SolutionItems) = preProject
+		..\readme.md = ..\readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.cars.dealer", "api.cars.dealer\api.cars.dealer.csproj", "{82919800-D1DC-4A67-9BB4-10C06EA13FE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.cars.dealer.Tests", "api.cars.dealer.Tests\api.cars.dealer.Tests.csproj", "{BA32FACD-8397-47F5-92DF-DDE42752DAD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82919800-D1DC-4A67-9BB4-10C06EA13FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82919800-D1DC-4A67-9BB4-10C06EA13FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82919800-D1DC-4A67-9BB4-10C06EA13FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82919800-D1DC-4A67-9BB4-10C06EA13FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA32FACD-8397-47F5-92DF-DDE42752DAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA32FACD-8397-47F5-92DF-DDE42752DAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA32FACD-8397-47F5-92DF-DDE42752DAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA32FACD-8397-47F5-92DF-DDE42752DAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDE3D7E5-2466-41D7-89D1-94A18909896B}
+	EndGlobalSection
+EndGlobal
