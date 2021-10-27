@@ -1,6 +1,7 @@
 ﻿using api.cars.dealer.Controllers;
 using api.cars.dealer.Models;
 using api.cars.dealer.Services;
+using api.cars.dealer.Common;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
 using NSubstitute;
@@ -9,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using Xunit;
+using Microsoft.Extensions.Logging;
 
 namespace api.cars.dealer.Tests.Controllers
 {
@@ -16,6 +18,7 @@ namespace api.cars.dealer.Tests.Controllers
     {
         private readonly CarsController _controller;
         private readonly ICarServices _service;
+        private readonly ILogger<CarsController> _logger;
 
         private static List<Car> SampleCars = new List<Car>
         {
@@ -29,12 +32,13 @@ namespace api.cars.dealer.Tests.Controllers
                 Colour = "Colour",
                 Price = 1000
             }
-        };
+        }; 
 
-        public CarsControllerTests()
+        public CarsControllerTests()    
         {
             _service = Substitute.For<ICarServices>();
-            _controller = new CarsController(_service);
+            _logger = Substitute.For<ILogger<CarsController>>();
+            _controller = new CarsController(_service, _logger);
         }
 
         [Fact]

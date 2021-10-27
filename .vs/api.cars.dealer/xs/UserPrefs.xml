@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{82919800-D1DC-4A67-9BB4-10C06EA13FE3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="api.cars.dealer.tests/Services/CarServicesTests.cs">
+    <Files>
+      <File FileName="api.cars.dealer.tests/Controllers/CarsControllerTests.cs" Line="44" Column="15" />
+      <File FileName="api.cars.dealer/Common/Constants.cs" Line="1" Column="1" />
+      <File FileName="api.cars.dealer/Controllers/CarsController.cs" Line="16" Column="9" />
+      <File FileName="api.cars.dealer.tests/Mappers/CarMapperTests.cs" Line="18" Column="1" />
+      <File FileName="api.cars.dealer.tests/Services/CarServicesTests.cs" Line="54" Column="82" />
+      <File FileName="api.cars.dealer/Services/CarServices.cs" Line="23" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="api.cars.dealer" expanded="True">
+            <Node name="api.cars.dealer" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="api.cars.dealer.Tests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Mappers" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="CarServicesTests.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="api.cars.dealer" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.api.cars.dealer PreferredExecutionTarget="/Applications/Safari.app" />
+</Properties>

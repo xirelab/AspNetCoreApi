@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
 using Repo = BizCover.Repository.Cars;
+using api.cars.dealer.Common;
 
 namespace api.cars.dealer.Tests.Services
 {
@@ -16,6 +17,7 @@ namespace api.cars.dealer.Tests.Services
         private readonly CarServices _service;
         private readonly Repo.ICarRepository _carRepository;
         private readonly IMapper _autoMapper;
+        private readonly IErrorHandler<CarServices> _errorHandler;
 
         private static List<Repo.Car> RepoSampleCars = new List<Repo.Car>
         {
@@ -48,7 +50,8 @@ namespace api.cars.dealer.Tests.Services
         {
             _carRepository = Substitute.For<Repo.ICarRepository>();
             _autoMapper = Substitute.For<IMapper>();
-            _service = new CarServices(_carRepository, _autoMapper);
+            _errorHandler = Substitute.For<IErrorHandler<CarServices>>();
+            _service = new CarServices(_carRepository, _autoMapper, _errorHandler);
         }
 
         [Fact]

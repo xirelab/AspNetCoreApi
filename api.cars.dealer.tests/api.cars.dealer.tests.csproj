@@ -18,11 +18,12 @@
   <ItemGroup>
     <ProjectReference Include="..\api.cars.dealer\api.cars.dealer.csproj" />
   </ItemGroup>
-
+  <ItemGroup>
+    <None Remove="BizCover.Repository.Cars" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="BizCover.Repository.Cars">
       <HintPath>..\packages\BizCover.Repository.Cars.1.0.0\lib\netstandard1.2\BizCover.Repository.Cars.dll</HintPath>
     </Reference>
   </ItemGroup>
-
 </Project>

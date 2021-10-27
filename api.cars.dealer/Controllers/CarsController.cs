@@ -5,7 +5,6 @@ using api.cars.dealer.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using NLog.Web;
 
 namespace api.cars.dealer.Controllers
 {
